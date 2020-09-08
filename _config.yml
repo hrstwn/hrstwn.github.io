@@ -1,5 +1,5 @@
 collections:
-  authors:
+  tags:
     output: true
 
 defaults:
@@ -13,6 +13,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
   - scope:
       path: ""
     values:

@@ -1,8 +1,9 @@
 ---
 layout: post
 tag: 
+- children
 - personal
-judul: Banana
+judul: Jojo Rabbit
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
