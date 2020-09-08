@@ -4,9 +4,11 @@ html, body { padding: 0; margin: 0; margin-top: 50px; background: #fff; color: #
 
 body { color: var(--color, #000); font-family: var(--font-family); }
 
-.topbar { top: 0; left: 0; position: fixed; width: 100%; padding: 20px; margin-left: auto; margin-right: auto; }
+.topbar { top: 0; left: 0; position: fixed; width: 100%; padding: 20px; margin-left: auto; margin-right: auto; z-index: 10; background: #fff; }
 
 #logo { padding: 10px; margin: 0; background: blue; }
+
+.cover { width: 100px; }
 
 .current { color: #aaa; }
 
@@ -16,14 +18,22 @@ nav a:hover { color: #808080; }
 
 nav { padding: 5px; margin-right: 60px; float: right; }
 
-.tag { background: gray; font-size: 8pt; color: #101010; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; border-radius: 3px; transition: background 0.5s; }
-
-.tag:hover { background: white; }
+.tag { font-weight: normal; background: #eee; font-size: 8pt; color: #101010; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; border-radius: 3px; display: inline; margin-inline-end: 5px; left: 0px; left: -5px; position: relative; }
 
 #tags { background: red; margin-left: auto; margin-right: auto; }
 
 #content { max-width: 500px; background: blue; margin-left: auto; margin-right: auto; }
 
 #post { max-width: 500px; background: teal; margin-left: auto; margin-right: auto; }
+
+.thumb-container { max-width: 750px; margin: 0px auto 0px; padding: 30px; }
+
+.thumb-unit { cursor: pointer; display: block; width: 600px; height: 300px; margin: 0px auto 30px; position: relative; overflow: hidden; background-size: 100%; background-position: center; transition: background-size 0.2s; }
+
+.thumb-unit:hover { background-size: 120%; }
+
+.thumb-overlay { height: 100%; bottom: 0; text-align: center; display: block; padding: 20px; color: white; }
+
+.thumb-overlay strong { padding: 5px; bottom: 10px; position: absolute; left: 10px; color: white; font-size: 20pt; }
 
 /*# sourceMappingURL=styles.css.map */

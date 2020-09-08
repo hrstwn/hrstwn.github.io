@@ -78,7 +78,7 @@ nav{
     border-radius: 3px;
     display:inline;
     margin-inline-end:5px; left:0px;
-    left:-5px;
+    left:-10px;
     position:relative;
 }
 

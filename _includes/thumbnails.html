@@ -1,0 +1,30 @@
+<section>
+  <div class="thumb-container">
+    {% for post in site.posts %}
+      <a href="{{ post.url }}">
+        <div class="thumb-unit" style="background-image: url('{{ post.cover }}')">
+          <div class="thumb-overlay">
+            <strong>{{ post.judul }}<i class="fa fa-arrow-right" aria-hidden="true"></i>
+<br/>
+            {% assign authorCount = post.tag | size %}
+            {% if authorCount == 0 %}
+                
+            {% elsif authorCount == 1 %}
+                    {{ page.tag | first }}
+                    {% else %}
+                        {% for tag in site.tags %}
+                        {% if forloop.first %}
+                        <div class="tag">{{ tag.name }}</div>
+                        {% else %}
+                        <div class="tag">{{ tag.name }}</div>
+                   {% endif %}
+            {% endfor %}
+            {% endif %}
+
+</strong>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
