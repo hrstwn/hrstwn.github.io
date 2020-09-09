@@ -6,7 +6,7 @@ layout: default
 <h1>{{ page.judul }}</h1>
 <div class="tag">
 {{ page | tags }}
-</div> 
+</div>
 <div id="post">
 {{ content }}
 </div>
