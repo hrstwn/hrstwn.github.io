@@ -4,24 +4,9 @@ layout: default
 <div id="content">
 
 <h1>{{ page.judul }}</h1>
-
-<div id="tags">
-{% assign authorCount = page.tag | size %}
-{% if authorCount == 0 %}
-    No author
-{% elsif authorCount == 1 %}
-    {{ page.tag | first }}
-{% else %}
-    {% for tag in site.tags %}
-        {% if forloop.first %}
-            <a class="tag" href="{{ tag.url }}">{{ tag.name }}</a>
-        {% else %}
-             <a class="tag" href="{{ tag.url }}">{{ tag.name }}</a>
-        {% endif %}
-    {% endfor %}
-{% endif %}
+<div class="tag">
+{{ page | tags }}
 </div>
-
 <div id="post">
 {{ content }}
 </div>
