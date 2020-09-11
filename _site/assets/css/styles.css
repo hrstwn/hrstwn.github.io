@@ -5,7 +5,7 @@ html, body { padding: 0; margin: 0; margin-top: 50px; background: var(--white); 
 
 body { color: var(--black2); font-family: var(--font-family); }
 
-a { transition: all 0.2s; text-decoration: none; color: var(--black2); }
+a { transition: all 0.2s; text-decoration: none; color: var(--med-brown); }
 
 a:hover { color: var(--blue-gray); }
 
