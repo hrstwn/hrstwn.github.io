@@ -114,7 +114,7 @@ nav{
 }
 
 #profile{
-    max-width:500px;
+    max-width:400px;
     margin:auto;
     text-align:center;
 }
@@ -128,7 +128,6 @@ nav{
 .container{
 width: 90%;
 margin: 0px auto 0px;
-padding: 30px;
 }
 
 .thumb-unit{
@@ -173,11 +172,12 @@ box-shadow: 0 0 0 1px #dee2e5;
 border: solid 1px #aaa;
 }
 
-.button{
+.morework{
     float:right;
     color: #333;
     font-weight:bold;
     text-decoration:none;
+    margin-bottom: 40px;
 }
 
 /* on desktop */

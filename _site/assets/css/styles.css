@@ -31,11 +31,11 @@ nav { list-style: none; margin: 0; padding: 0; text-align: center; }
 
 .tag { font-weight: normal; background: #eee; font-size: 8pt; color: #101010; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; border-radius: 3px; display: inline; margin-inline-end: 5px; left: 0px; left: -2px; position: relative; float: left; }
 
-#profile { max-width: 500px; margin: auto; text-align: center; }
+#profile { max-width: 400px; margin: auto; text-align: center; }
 
 #tags { background: red; margin-left: auto; margin-right: auto; }
 
-.container { width: 90%; margin: 0px auto 0px; padding: 30px; }
+.container { width: 90%; margin: 0px auto 0px; }
 
 .thumb-unit { cursor: pointer; display: block; height: 250px; margin: 0px auto 30px; position: relative; overflow: hidden; background-size: 100%; background-position: center; transition: all 0.1s; border-radius: 4px; box-shadow: 0 0 0 1px #8C6C61aa; }
 
@@ -47,7 +47,7 @@ nav { list-style: none; margin: 0; padding: 0; text-align: center; }
 
 img { width: 120%; margin: 20px 20px 20px -10%; border-radius: 4px; box-shadow: 0 0 0 1px #dee2e5; border: solid 1px #aaa; }
 
-.button { float: right; color: #333; font-weight: bold; text-decoration: none; }
+.morework { float: right; color: #333; font-weight: bold; text-decoration: none; margin-bottom: 40px; }
 
 /* on desktop */
 @media only screen and (min-width: 768px) { .container { width: 70%; max-width: 700px; } }
