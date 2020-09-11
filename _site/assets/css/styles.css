@@ -28,14 +28,16 @@ nav { padding: 5px; margin-right: 60px; float: right; }
 
 #post { max-width: 500px; background: teal; margin-left: auto; margin-right: auto; }
 
-.thumb-container { max-width: 750px; margin: 0px auto 0px; padding: 30px; }
+.thumb-container { width: 90%; margin: 0px auto 0px; padding: 30px; }
 
-.thumb-unit { cursor: pointer; display: block; width: 600px; height: 300px; margin: 0px auto 30px; position: relative; overflow: hidden; background-size: 100%; background-position: center; transition: all 0.1s; border-radius: 4px; box-shadow: 0 0 0 1px #dee2e5; border: solid 1px #aaa; }
+.thumb-unit { cursor: pointer; display: block; height: 500px; margin: 0px auto 30px; position: relative; overflow: hidden; background-size: 100%; background-position: center; transition: all 0.1s; border-radius: 4px; box-shadow: 0 0 0 1px #dee2e5; border: solid 1px #aaa; }
 
 .thumb-unit:hover { box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3), 0 0 1px 1px rgba(0, 171, 205, 0.2); background-size: 105%; }
 
 .thumb-overlay { height: 100%; bottom: 0; text-align: center; display: block; padding: 20px; color: white; }
 
 .thumb-overlay strong { padding: 5px; bottom: 10px; position: absolute; left: 10px; color: white; font-size: 20pt; }
+
+@media screen and (min-width: 800px) { .thumb-container { width: 70%; max-width: 700px; } .thumb-unit { height: 300px; } }
 
 /*# sourceMappingURL=styles.css.map */

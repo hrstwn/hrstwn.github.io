@@ -116,14 +116,15 @@ nav{
 }
 
 .thumb-container{
-width: 90%;
+max-width: 750px;
 margin: 0px auto 0px;
 padding: 30px;
 }
 .thumb-unit{
 cursor: pointer;
 display: block;
-height: 500px;
+width: 600px;
+height: 300px;
 margin: 0px auto 30px;
 position: relative;
 overflow: hidden;
@@ -153,13 +154,4 @@ background-size:105%;
     left: 10px;
     color:white;
     font-size:20pt;
-}
-@media screen and (min-width: 800px) {
-.thumb-container{
-    width:70%;
-    max-width:700px;
-}
-.thumb-unit{
-    height:300px;
-}
 }
