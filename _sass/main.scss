@@ -21,9 +21,15 @@ html, body {
 body {
   color: var(--color, #000);
   font-family: var(--font-family);
-  padding:10px;
 }
 
+a{
+    transition: all 0.2s;
+    text-decoration:none
+}
+a:hover{
+    color: #8C6C61;
+}
 
 .topbar{
     top:0; left:0;
@@ -36,35 +42,36 @@ body {
     background: #fff;
 }
 
-#logo{
-    padding:10px;
-    margin:0;
-    background: blue;
-}
 
 .cover{
     width:100px;
 }
 
 .current{
-    color:#aaa;
+    color: #593123;
 }
 
 nav a{
     transition: color 0.1s;
     text-decoration:none;
     color: black;
-    padding:20px;
+    padding:10px;
     font-weight:bold;
+    display:inline-block;
 }
 nav a:hover{
-    color: #808080;
+    color: #8C6C61;
+}
+
+nav li{
+    display:inline;
 }
 
 nav{
-    padding:5px;
-    margin-right:60px;
-    float:right;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
 
 .tag_thumbnail {
@@ -102,29 +109,16 @@ nav{
     margin-right: auto;
 }
 
-#content{
-    max-width:500px;
-    background: blue;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#post{
-    max-width:500px;
-    background: teal;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .container{
 width: 90%;
 margin: 0px auto 0px;
 padding: 30px;
 }
+
 .thumb-unit{
 cursor: pointer;
 display: block;
-height: 300px;
+height: 250px;
 margin: 0px auto 30px;
 position: relative;
 overflow: hidden;
@@ -132,11 +126,10 @@ background-size:100%;
 background-position:center;
 transition: all 0.1s;
 border-radius: 4px;
-box-shadow: 0 0 0 1px #dee2e5;
-border: solid 1px #aaa;
+box-shadow: 0 0 0 1px #8C6C61aa;
 }
 .thumb-unit:hover{
-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3), 0 0 1px 1px rgba(0, 171, 205, 0.2);
+box-shadow: 0 1px 2px 0 #8C6C61;
 background-size:105%;
 }
 .thumb-overlay{
@@ -155,6 +148,23 @@ background-size:105%;
     color:white;
     font-size:20pt;
 }
+
+img{
+width: 120%;
+margin: 20px 20px 20px -10%;
+border-radius: 4px;
+box-shadow: 0 0 0 1px #dee2e5;
+border: solid 1px #aaa;
+}
+
+.button{
+    float:right;
+    color: #333;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* on desktop */
 @media only screen and (min-width: 768px){
 .container{
     width:70%;
