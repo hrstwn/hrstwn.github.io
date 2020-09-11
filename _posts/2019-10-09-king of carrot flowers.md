@@ -9,7 +9,7 @@ description:
 
 ![Final image](/assets/img/posts/post1/final.png)
 
-The inspiration behind this was Neutral Milk Hotel's song, also my favorite of them,  The King of Carrot Flowers pt.1, written by Jeff Mangum. Here, in my opinion, was the most obvious sign of Jeff Mangum's obsession to Anne Frank which I found interesting. I depicted as a young boy playing king with the ghost of Anne.
+The inspiration behind this was Neutral Milk Hotel's song, also one of my favorite songs from them,  The King of Carrot Flowers pt.1, written by Jeff Mangum. This, in my opinion, has some little hints of Jeff Mangum's obsession to Anne Frank which I found interesting. I depicted him as a young boy playing king with the ghost of Anne.
 
 <div class="imgsmall" markdown="1">
 ![the process](/assets/img/posts/post1/p1.png)
