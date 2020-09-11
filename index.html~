@@ -3,6 +3,6 @@ layout: default
 title: Home
 ---
 
-<h2>Hello World! This new</h2>
+<h2>Hello World!</h2>
 
 {% include thumbnails.html %}
