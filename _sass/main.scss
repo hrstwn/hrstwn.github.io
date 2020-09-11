@@ -19,23 +19,23 @@ html, body {
   width: 100%;
 }
 body {
-  color: var(--color, #000);
+  color: #333;
   font-family: var(--font-family);
 }
 
 a{
     transition: all 0.2s;
-    text-decoration:none
+    text-decoration:none;
+    color:#333;
 }
 a:hover{
-    color: #8C6C61;
+    color: #75939A;
 }
 
 .topbar{
     top:0; left:0;
     position:fixed;
     width:100%;
-    padding:20px;
     margin-left: auto;
     margin-right: auto;
     z-index: 10;
@@ -60,7 +60,11 @@ nav a{
     display:inline-block;
 }
 nav a:hover{
-    color: #8C6C61;
+    color: #75939A;
+}
+
+nav ul{
+    padding-left:0;margin-left:0;
 }
 
 nav li{
@@ -72,6 +76,10 @@ nav{
     margin:0;
     padding:0;
     text-align:center;
+}
+
+.fa{
+    color: #593123; padding:10px; font-size: 14px !important;
 }
 
 .tag_thumbnail {
@@ -101,6 +109,12 @@ nav{
     left:-2px;
     position:relative;
     float:left
+}
+
+#profile{
+    max-width:500px;
+    margin:auto;
+    text-align:center;
 }
 
 #tags{

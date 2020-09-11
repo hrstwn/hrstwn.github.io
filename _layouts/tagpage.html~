@@ -10,7 +10,7 @@ layout: default
 <a href="{{ post.url }}">
 <div class="thumb-unit" style="background-image: url('{{ post.cover }}')">
           <div class="thumb-overlay">
-            <strong>{{ post.judul }}
+            <strong>{{ post.judul }}<i class="fa fa-arrow-right" aria-hidden="true"></i>
 <br/>
 </strong>
           </div>

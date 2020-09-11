@@ -2,13 +2,13 @@
 
 html, body { padding: 0; margin: 0; margin-top: 50px; background: #fff; color: #0e0e0e; width: 100%; }
 
-body { color: var(--color, #000); font-family: var(--font-family); }
+body { color: #333; font-family: var(--font-family); }
 
-a { transition: all 0.2s; text-decoration: none; }
+a { transition: all 0.2s; text-decoration: none; color: #333; }
 
-a:hover { color: #8C6C61; }
+a:hover { color: #75939A; }
 
-.topbar { top: 0; left: 0; position: fixed; width: 100%; padding: 20px; margin-left: auto; margin-right: auto; z-index: 10; background: #fff; }
+.topbar { top: 0; left: 0; position: fixed; width: 100%; margin-left: auto; margin-right: auto; z-index: 10; background: #fff; }
 
 .cover { width: 100px; }
 
@@ -16,15 +16,21 @@ a:hover { color: #8C6C61; }
 
 nav a { transition: color 0.1s; text-decoration: none; color: black; padding: 10px; font-weight: bold; display: inline-block; }
 
-nav a:hover { color: #8C6C61; }
+nav a:hover { color: #75939A; }
+
+nav ul { padding-left: 0; margin-left: 0; }
 
 nav li { display: inline; }
 
 nav { list-style: none; margin: 0; padding: 0; text-align: center; }
 
+.fa { color: #593123; padding: 10px; font-size: 14px !important; }
+
 .tag_thumbnail { font-weight: normal; font-size: 8pt; color: #eee; padding: 10px 8px 5px 8px; text-align: center; text-decoration: none; margin-inline-end: 5px; left: 0px; left: -2px; position: relative; float: left; }
 
 .tag { font-weight: normal; background: #eee; font-size: 8pt; color: #101010; padding: 3px 8px 3px 8px; text-align: center; text-decoration: none; border-radius: 3px; display: inline; margin-inline-end: 5px; left: 0px; left: -2px; position: relative; float: left; }
+
+#profile { max-width: 500px; margin: auto; text-align: center; }
 
 #tags { background: red; margin-left: auto; margin-right: auto; }
 
