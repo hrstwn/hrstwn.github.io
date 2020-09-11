@@ -9,6 +9,8 @@ a { transition: all 0.2s; text-decoration: none; color: var(--med-brown); }
 
 a:hover { color: var(--blue-gray); }
 
+footer { width: 100%; padding: 30px 0 30px 0; }
+
 .topbar { top: 0; left: 0; position: fixed; width: 100%; margin-left: auto; margin-right: auto; z-index: 10; background: var(--white); }
 
 .cover { width: 100px; }
@@ -43,12 +45,14 @@ nav { list-style: none; margin: 0; padding: 0; text-align: center; }
 
 .thumb-overlay strong { padding: 5px; bottom: 10px; position: absolute; left: 10px; color: white; font-size: 20pt; }
 
-img { width: 120%; margin: 20px 20px 20px -10%; border-radius: 4px; box-shadow: 0 1px 1px 1px var(--mid-gray); }
+img { max-width: 100%; border-radius: 4px; box-shadow: 0 1px 1px 1px var(--mid-gray); }
 
 .morework { float: right; color: var(--black2); font-weight: bold; text-decoration: none; margin-bottom: 10%; }
 
+.imgsmall img { max-width: 70%; margin: 20px auto; display: block; }
+
 /* on desktop */
-@media only screen and (min-width: 768px) { .container { width: 70%; max-width: 720px; } .thumb-unit { height: 270px; } img { width: 120%; } #profile { max-width: 400px; margin: auto; text-align: center; } }
+@media only screen and (min-width: 768px) { .container { width: 70%; max-width: 720px; } .thumb-unit { height: 270px; } img { max-width: 120%; margin: 20px 20px 20px -10%; } .imgsmall { display: table-cell; text-align: center; width: 100%; } .imgsmall img { margin: 5px; display: inline-block; max-width: 23%; } #profile { max-width: 400px; margin: auto; text-align: center; } }
 
 .profile-page { width: 80%; display: block; margin: auto; list-style: none; }
 
