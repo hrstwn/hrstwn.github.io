@@ -48,7 +48,6 @@ footer{
     background: var(--white);
 }
 
-
 .cover{
     width:100px;
 }
@@ -58,6 +57,7 @@ footer{
 }
 
 nav a{
+    font-size:9px;
     transition: color 0.1s;
     text-decoration:none;
     color: var(--black);
@@ -92,7 +92,7 @@ nav{
     font-weight:normal;
     font-size: 8pt;
     color: var(--light-gray);
-    padding: 10px 8px 5px 8px;
+    padding: 10px 8px 5px 0px;
     text-align: center;
     text-decoration: none;
     margin-inline-end:5px; left:0px;
@@ -148,7 +148,6 @@ background-size:105%;
 .thumb-overlay{
     height:100%;
     bottom:0;
-    text-align: center;
     display: block;
     padding: 20px;
     color: white;
@@ -159,7 +158,7 @@ background-size:105%;
     position:absolute;
     left: 10px;
     color:white;
-    font-size:20pt;
+    font-size:18pt;
 }
 
 img{
@@ -186,6 +185,10 @@ box-shadow: 0 1px 1px 1px var(--mid-gray);
 .container{
     width:70%;
     max-width:720px;
+}
+
+nav a{
+    font-size:12px;
 }
 
 .thumb-unit{
