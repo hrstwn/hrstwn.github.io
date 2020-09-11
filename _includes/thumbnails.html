@@ -1,5 +1,5 @@
 
-    {% for post in site.posts  %}
+    {% for post in site.posts limit:2 %}
       <a href="{{ post.url }}">
         <div class="thumb-unit" style="background-image: url('{{ post.cover }}')">
           <div class="thumb-overlay">

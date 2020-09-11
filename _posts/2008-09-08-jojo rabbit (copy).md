@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: children
+tags: childrensbook
 judul: Whirling Dervish
 title: Whirling Dervish
 cover: /assets/img/posts/post0/cover.png

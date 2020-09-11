@@ -2,31 +2,18 @@
 layout: default
 title: Blog
 ---
-<h1>Latest Works</h1>
-
 <section>
-  <div class="thumb-container">
+  <div class="container">
+<h1>Latest Works</h1>
     {% for post in site.posts %}
       <a href="{{ post.url }}">
         <div class="thumb-unit" style="background-image: url('{{ post.cover }}')">
           <div class="thumb-overlay">
             <strong>{{ post.judul }}<i class="fa fa-arrow-right" aria-hidden="true"></i>
 <br/>
-            {% assign authorCount = post.tag | size %}
-            {% if authorCount == 0 %}
-                
-            {% elsif authorCount == 1 %}
-                    {{ page.tag | first }}
-                    {% else %}
-                        {% for tag in site.tags %}
-                        {% if forloop.first %}
-                        <div class="tag">{{ tag.name }}</div>
-                        {% else %}
-                        <div class="tag">{{ tag.name }}</div>
-                   {% endif %}
-            {% endfor %}
-            {% endif %}
-
+<div class="tag_thumbnail">
+{{ post.tags | join: ' • ' }}
+</div>
 </strong>
           </div>
         </div>

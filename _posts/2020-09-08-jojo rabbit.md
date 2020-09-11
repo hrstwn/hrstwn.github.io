@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: children personal
+tags: childrensbook personal
 judul: Staying Home
 title:  Staying Home
 cover: /assets/img/posts/post2/cover.png
