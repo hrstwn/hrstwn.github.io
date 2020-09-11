@@ -1,4 +1,5 @@
-
+<section>
+  <div class="thumb-container">
     {% for post in site.posts  %}
       <a href="{{ post.url }}">
         <div class="thumb-unit" style="background-image: url('{{ post.cover }}')">
@@ -13,4 +14,5 @@
           </div>
         </div>
     {% endfor %}
-
+  </div>
+</section>
