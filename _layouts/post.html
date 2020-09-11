@@ -4,8 +4,13 @@ layout: default
 <div id="content">
 
 <h1>{{ page.judul }}</h1>
-{% include tags.html %}
 <br />
+<span>[
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
 <div id="post">
 {{ content }}
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: children
+tags: children
 judul: Whirling Dervish
 cover: /assets/img/posts/post0/cover.png
 ---

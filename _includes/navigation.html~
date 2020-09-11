@@ -1,7 +1,4 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
-{% if site.tags != "" %}
-  {% include collecttags.html %}
-{% endif %}
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 <header class="topbar">
 <a id="logo" href="/">home</a>
 
