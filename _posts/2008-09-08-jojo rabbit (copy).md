@@ -2,7 +2,9 @@
 layout: post
 tags: children
 judul: Whirling Dervish
+title: Whirling Dervish
 cover: /assets/img/posts/post0/cover.png
+description: blablabla
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.

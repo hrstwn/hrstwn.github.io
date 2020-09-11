@@ -1,7 +1,6 @@
 collections:
   tags:
     output: true
-    permalink: tags/:path/
 
 defaults:
   - scope:

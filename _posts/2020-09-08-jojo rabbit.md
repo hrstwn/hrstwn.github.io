@@ -2,7 +2,9 @@
 layout: post
 tags: children personal
 judul: Staying Home
+title:  Staying Home
 cover: /assets/img/posts/post2/cover.png
+description: blablabla
 ---
 
 A banana is an edible fruit – botanically a berry – produced by several kinds

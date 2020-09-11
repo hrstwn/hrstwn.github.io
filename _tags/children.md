@@ -1,5 +1,5 @@
 ---
 layout: tagpage
 title: "Tag: Children"
-tag: children
+tag-name: children
 ---
