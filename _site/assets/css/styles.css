@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700&display=swap");
-:root { --black: #0e0e0e; --black2: #333; --white: #fff; --blue-gray: #75939A; --light-blue: #C7ECF2; --med-blue: #4EAFCC; --dark-blue: #1C809E; --light-gray: #eee; --lighter-gray: #f3f3f3; --mid-gray: #333; --font-family: Lexend Deca; }
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+:root { --black: #0e0e0e; --black2: #333; --white: #fff; --blue-gray: #75939A; --light-blue: #C7ECF2; --med-blue: #4EAFCC; --dark-blue: #1C809E; --light-gray: #eee; --lighter-gray: #f3f3f3; --mid-gray: #333; --font-family: Lexend Deca; --font-body: Abhaya Libre; }
 
 html, body { padding: 0; margin: 0; background: var(--white); width: 100%; margin-top: 50px; }
 
 body { color: var(--black2); font-family: var(--font-family); }
+
+p { font-family: var(--font-body); line-height: 1.5; font-size: 18px; }
 
 a { transition: all 0.2s; text-decoration: none; color: var(--med-blue); }
 
@@ -59,7 +61,7 @@ img { width: 100%; border-radius: 4px; }
 .all-works { width: 95vw; margin: auto; }
 
 /*** on desktop ***/
-@media only screen and (min-width: 900px) { .container-hello { width: 100%; background: var(--lighter-gray); margin-bottom: -80px; } .container { width: 70%; max-width: 720px; } nav a { font-size: 12px; } img { width: 120%; margin: 20px 20px 20px -10%; } .imgsmall { display: table-cell; text-align: center; width: 100%; } .imgsmall img { margin: 5px; display: inline-block; max-width: 23%; } .imgmed { text-align: center; } #profile { max-width: 600px; margin: auto; height: 80vh; top: 20vh; position: relative; } .all-works { width: 80%; margin: auto; } .all-works .thumb-unit { height: 0; width: 24%; display: inline-block; position: relative; padding-bottom: 24%; margin-bottom: 0; background-size: cover; } .all-works .thumb-unit .thumb-overlay { padding: 50%; background: var(--dark-blue); position: relative; opacity: 0; transition: all 0.2s; } .all-works .thumb-unit .thumb-overlay:hover { opacity: 1; } }
+@media only screen and (min-width: 900px) { .container-hello { width: 100%; background: var(--lighter-gray); margin-bottom: -160px; } .container { width: 70%; max-width: 720px; } nav a { font-size: 12px; } img { width: 120%; margin: 20px 20px 20px -10%; } .imgsmall { display: table-cell; text-align: center; width: 100%; } .imgsmall img { margin: 5px; display: inline-block; max-width: 23%; } .imgmed { text-align: center; } #profile { max-width: 600px; margin: auto; height: 80vh; top: 20vh; position: relative; } .all-works { width: 80%; margin: auto; } .all-works .thumb-unit { height: 0; width: 24%; display: inline-block; position: relative; padding-bottom: 24%; margin-bottom: 0; background-size: cover; } .all-works .thumb-unit .thumb-overlay { padding: 50%; background: var(--dark-blue); position: relative; opacity: 0; transition: all 0.2s; } .all-works .thumb-unit .thumb-overlay:hover { opacity: 1; } }
 
 .profile-page { width: 80%; display: block; margin: auto; list-style: none; }
 
