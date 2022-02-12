@@ -3,7 +3,7 @@ layout: post
 judul: The King of Carrot Flowers
 title: The King of Carrot Flowers
 cover: /assets/img/posts/post1/cover.png
-tags: personal illustration
+tags: personal illustration childrensbook
 description: 
 ---
 

@@ -7,10 +7,26 @@ title:
 footer{
     display:none;
 }
+/*** on desktop ***/
+@media only screen and (min-width: 900px){
+    .topbar{
+        background: var(--lighter-gray);
+        position:absolute;
+    }
+}
+body{
+    margin-top:0;
+}
+
+h1{
+    font-size:xxx-large;
+    font-weight:normal;
+    line-height:0.5;
+}
 </style>
-<div class="container">
+<div class="container-hello">
 <div id="profile">
-<h2>Hello World!</h2>
+<h1>Hello.</h1>
 <p>
 Heru Setiawan is an illustrator. He tells stories through drawings (he apparently loves it) and spends most of his time resting and making illustrations for children's books, animations, and for himself along with a small team of friends in <a href="http://losmunos.com" target="_blank"> Losmunos. </a>
 </p>
@@ -19,6 +35,8 @@ Heru Setiawan is an illustrator. He tells stories through drawings (he apparentl
 </p>
 <br /><br />
 </div>
+</div>
+<div class="container">
 {% include thumbnails.html %}
 <a class="morework" href="/works.html">
 See more of his works 🡢
