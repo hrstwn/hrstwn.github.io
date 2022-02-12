@@ -1,50 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <script type="text/javascript" src="/js/lightbox.js"></script>
-    <link rel="stylesheet" href="/css/lightbox.css">
-    <title>hrstwn/Attempt at Heavypaint</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <meta name="viewport" content="width=device-width">
-<header class="topbar">
-<nav><ul>
-  
-    <li> <a href="/" >Home</a> </li>
-  
-    <li> <a href="/about.html" >About</a> </li>
-  
-    <li> <a href="/works.html" >Works</a> </li>
-  
-</ul></nav>
-
-</header>
-
-    <div class="container">
-    
-<h1>Attempt at Heavypaint</h1>
-
-
-  
-  <a class="tag-link"
-    href=/tags/personal/
-    rel="category tag">
-    #personal
-  </a>
-
-  
-  <a class="tag-link"
-    href=/tags/blog/
-    rel="category tag">
-    #blog
-  </a>
-
-<br />
-<br />
-<p>It’s been months since I purchased Heavypaint and so far I’ve only finished 3 drawings (I know, impressive, really).</p>
+I"�<p>It’s been months since I purchased Heavypaint and so far I’ve only finished 3 drawings (I know, impressive, really).</p>
 
 <p><img src="/assets/img/posts/post4/betterdays.png" alt="Better Days" /></p>
 
@@ -59,24 +13,4 @@
 <p><img src="/assets/img/posts/post4/nobody.png" alt="Nobody Knows" />
 <img src="/assets/img/posts/post4/ruby.png" alt="Ruby Sparks" /></p>
 
-
-</div>
-
-
-  </body>
-  <footer>
-  <div id="footer">
-<center>
-<p>
-<a href="mailto:hrstwn@outlook.com" class="fa fa-envelope" target="_blank"></a><a href="http://be.net/hrstwn" class="fa fa-behance" target="_blank"></a>   <a href="http://instagram.com/_hrstwn" class="fa fa-instagram" target="_blank"></a>   <a href="http://twitter.com/_hrstwn" class="fa fa-twitter" target="_blank"></a> <a href="http://github.com/hrstwn" class="fa fa-github" target="_blank"></a>
-</p>
-<p>
-© 2021. All rights reserved.
-</p>
-</center>
-</div>
-
-
-  </footer>
-</html>
-
+:ET
