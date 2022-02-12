@@ -1,7 +1,7 @@
 ---
 layout: post
-judul: Attempts at Heavypaint
-title: Attempts at Heavypaint
+judul: Attempt at Heavypaint
+title: Attempt at Heavypaint
 cover: /assets/img/posts/post4/cover.png
 tags: personal blog
 description: 
@@ -15,7 +15,7 @@ On a serious note, though, despite the very minimum number of drawings that I've
 
 Heavypaint is an fun little drawing app developed by Vaughan Ling. It's super simple and 'different' in terms of the conventional ways of doing stuff like in other softwares (at least compared to the ones that I've tried).
 
-But being different is not a weak point of this app. It *needs* to be different. It's an app where you draw just to draw. Not to impress your client or anything, (but if you're x_train that wouldn't be a hard thing to do). Heavypaint gives you a set of tools that works almost similarly to each other, but grouped into several presets that makes it easy for you to differentiate them. 
+But being different is not a weak point of this app. It *needs* to be different. It's an app where you draw just to draw. Not to impress your client or anything, (but if you're x_train that wouldn't be a hard thing to do). Heavypaint gives you a set of tools that works almost similarly to each other, but grouped into several presets that makes it easy for you to differentiate them. These presets are really suitable for the purpose of experimental. They're dynamic, fun, and organic ( but also somehow artificial at the same time).
 
 Anyway enough mumbling. Here, look at my ugly drawings I did with it. I don't really care what you think about them because again, Heavypaint is an app that I use just to draw, not to impress you. Maybe I'll talk about this app in detail in another chance, but no promises, though. *Cheers!*
 
