@@ -19,49 +19,15 @@
 }
 
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: var(--white);
-  }
-  html, body{
-      background-color: var(--black2);
-  }
-  .container-hello{
-    // background: var(--black2);
-  }
-  .topbar{
-    background: var(--black2);
-  }
-  nav a{
-    color: var(--white);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  body {
-    color: var(--black2);
-  }
-  html, body {
-      background: var(--white);
-  }
-  .container-hello{
-    // background: var(--lighter-gray);
-  }
-  .topbar{
-    background: var(--white);
-  }
-  nav a{
-    color: var(--black);
-  }
-}
-
 html, body {
   padding: 0;
   margin:0;
+  background: var(--white);
   width: 100%;
   margin-top:50px;
 }
 body {
+  color: var(--black2);
   font-family: var(--font-family);
 }
 
@@ -92,6 +58,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     z-index: 10;
+    background: var(--white);
 }
 
 .cover{
@@ -106,6 +73,7 @@ nav a{
     font-size:9px;
     transition: color 0.1s;
     text-decoration:none;
+    color: var(--black);
     padding:10px;
     font-weight:bold;
     display:inline-block;
@@ -243,6 +211,7 @@ border-radius: 4px;
 @media only screen and (min-width: 900px){
 .container-hello{
     width:100%;
+    background: var(--lighter-gray);
     margin-bottom:-160px;
 }
 
@@ -312,4 +281,3 @@ margin: 20px 20px 20px -10%;
         }
 }
 }
-

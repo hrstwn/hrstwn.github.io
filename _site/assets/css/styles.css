@@ -2,9 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
 :root { --black: #0e0e0e; --black2: #333; --white: #fff; --blue-gray: #75939A; --light-blue: #C7ECF2; --med-blue: #4EAFCC; --dark-blue: #1C809E; --light-gray: #eee; --lighter-gray: #f3f3f3; --mid-gray: #333; --font-family: Lexend Deca; --font-body: Abhaya Libre; }
 
-html, body { padding: 0; margin: 0; background: var(--white); width: 100%; margin-top: 50px; }
+@media (prefers-color-scheme: dark) { body { color: var(--white); } html, body { background-color: var(--black2); } .topbar { background: var(--black2); } nav a { color: var(--white); } }
 
-body { color: var(--black2); font-family: var(--font-family); }
+@media (prefers-color-scheme: light) { body { color: var(--black2); } html, body { background: var(--white); } .topbar { background: var(--white); } nav a { color: var(--black); } }
+
+html, body { padding: 0; margin: 0; width: 100%; margin-top: 50px; }
+
+body { font-family: var(--font-family); }
 
 p { font-family: var(--font-body); line-height: 1.5; font-size: 18px; }
 
@@ -14,13 +18,13 @@ a:hover { color: var(--blue-gray); }
 
 footer { width: 100%; padding: 30px 0 30px 0; }
 
-.topbar { top: 0; left: 0; position: fixed; width: 100%; margin-left: auto; margin-right: auto; z-index: 10; background: var(--white); }
+.topbar { top: 0; left: 0; position: fixed; width: 100%; margin-left: auto; margin-right: auto; z-index: 10; }
 
 .cover { width: 100px; }
 
 .current { color: var(--dark-blue); }
 
-nav a { font-size: 9px; transition: color 0.1s; text-decoration: none; color: var(--black); padding: 10px; font-weight: bold; display: inline-block; }
+nav a { font-size: 9px; transition: color 0.1s; text-decoration: none; padding: 10px; font-weight: bold; display: inline-block; }
 
 nav a:hover { color: var(--blue-gray); }
 
@@ -61,7 +65,7 @@ img { width: 100%; border-radius: 4px; }
 .all-works { width: 95vw; margin: auto; }
 
 /*** on desktop ***/
-@media only screen and (min-width: 900px) { .container-hello { width: 100%; background: var(--lighter-gray); margin-bottom: -160px; } .container { width: 70%; max-width: 720px; } nav a { font-size: 12px; } img { width: 120%; margin: 20px 20px 20px -10%; } .imgsmall { display: table-cell; text-align: center; width: 100%; } .imgsmall img { margin: 5px; display: inline-block; max-width: 23%; } .imgmed { text-align: center; } #profile { max-width: 600px; margin: auto; height: 80vh; top: 20vh; position: relative; } .all-works { width: 80%; margin: auto; } .all-works .thumb-unit { height: 0; width: 24%; display: inline-block; position: relative; padding-bottom: 24%; margin-bottom: 0; background-size: cover; } .all-works .thumb-unit .thumb-overlay { padding: 50%; background: var(--dark-blue); position: relative; opacity: 0; transition: all 0.2s; } .all-works .thumb-unit .thumb-overlay:hover { opacity: 1; } }
+@media only screen and (min-width: 900px) { .container-hello { width: 100%; margin-bottom: -160px; } .container { width: 70%; max-width: 720px; } nav a { font-size: 12px; } img { width: 120%; margin: 20px 20px 20px -10%; } .imgsmall { display: table-cell; text-align: center; width: 100%; } .imgsmall img { margin: 5px; display: inline-block; max-width: 23%; } .imgmed { text-align: center; } #profile { max-width: 600px; margin: auto; height: 80vh; top: 20vh; position: relative; } .all-works { width: 80%; margin: auto; } .all-works .thumb-unit { height: 0; width: 24%; display: inline-block; position: relative; padding-bottom: 24%; margin-bottom: 0; background-size: cover; } .all-works .thumb-unit .thumb-overlay { padding: 50%; background: var(--dark-blue); position: relative; opacity: 0; transition: all 0.2s; } .all-works .thumb-unit .thumb-overlay:hover { opacity: 1; } }
 
 .profile-page { width: 80%; display: block; margin: auto; list-style: none; }
 
