@@ -2,7 +2,7 @@
 layout: post
 judul: The Amazing Adventures of Ben & July
 title: The Amazing Adventures of Ben & July
-cover: https://iili.io/HcEBVDP.png
+cover: https://iili.io/HcEGwUx.png
 tags: childrensbook clientswork illustration
 description: 
 ---
